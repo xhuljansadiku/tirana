@@ -1,19 +1,107 @@
-body {
-    background-color: whitesmoke;
-    
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
 
-   
+*{
+    background-color: whitesmoke;
+    width: 900px;
+    margin: auto;
 }
+
+/* Header */
+#top{
+background-image: url(https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/weather/cloud/altocumulus.jpg);
+font-family: 'Bungee Spice', cursive;
+width: 600px;
+height: 60px;
+padding-left: 300px;
+padding-top: 20px;
+border: 2px dotted blue;
+}
+
+.header { 
+    color: white;
+    margin: 20px 0 40px 0;
+
+}
+
+li >a{
+    font-size: 18px;
+    line-height: 1.5;
+    text-decoration: none;
+    
+}
+li >a:hover{
+background-color: rgb(154, 144, 164);
+font-size: 22px;
+}
+
+/* Head Pictures */
+
+.head-pic{
+    border-radius: 0px 100px / 120px;
+box-shadow: 20px 24px 16px 0px rgba(0,0,0,0.75);
+margin: 0 0 16px 0;
+
+}
+
+
+.top-pic{
+    margin: 32px 0px;
+}
+
+/* Section 1 */
+.section-1{
+    margin: 0 0 16px 0;
+}
+
+/* Section 2 */
+
+.klima-img{
+    width: 700px;
+    margin: 30px 0;
+}
+
+/* Section 3 */
+.section-3{
+    margin: 30px 0;
+    
+}
+
+.pazari{
+    border: 10px solid rgb(86, 69, 24);
+}
+
+/* Section 4 */
+.section-4{
+    margin: 30px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* Section 5 */
+.mozaik{
+    border-radius: 200px 0px 200px 0px;
+}
+
+/* Section 6 */
+
+.bashkia{
+    width: 400px;
+}
+
+
+
+.table{
+margin: 0;
+}
+
+
 
 h1, h2, h3, h4 {
 font-family: "Audiowide", sans-serif;
 }
 
- table, th, td {
+table, th, td {
+    width: 900px;
     border:1px solid blue;
     
 }
@@ -21,16 +109,23 @@ font-family: "Audiowide", sans-serif;
 p, tr, td { font-family: "Trirong", serif;
 }
 
-.div1 { width: 50%;
-    float:  left;
-}
-.div2 { width: auto;
-    
-    
+.btn{
+width: 120px;
+height: 50px;
+font-size: 30px;
+border-radius: 20px;
 }
 
-.header { 
-    background-color: blue;
+.btn a{
+    text-decoration: none;
+}
+.btn:hover{
+    cursor: pointer;
+    font-size: 3rem;
+}
+.fa{
+    background-color: rgba(36, 32, 128, 0.8);
+    height: 20px;
+    padding: 10px 10px;
     color: white;
-    width: 350px;
 }
