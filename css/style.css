@@ -2,9 +2,14 @@
 
 *{
     background-color: whitesmoke;
-    width: 900px;
-    margin: auto;
 }
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+
 
 /* Header */
 #top{
@@ -23,14 +28,12 @@ border: 5px dashed white;
 
 }
 
+
 li{
-    
     display: inline;
     height: 100px;
     width: 80px;
     padding-left: 0px;
-    
-
 }
 
 li >a{
@@ -57,7 +60,8 @@ font-size: 20px;
 .head-pic{
     border-radius: 0px 100px / 120px;
 box-shadow: 20px 24px 16px 0px rgba(0,0,0,0.75);
-margin: 0 0 16px 0;
+margin: 10px 10px ;
+width: 900px;
 
 }
 
@@ -66,26 +70,36 @@ margin: 0 0 16px 0;
     margin: 32px 0px;
 }
 
+
 /* Section 1 */
 .section-1{
-    margin: 0 0 16px 0;
+    padding: 5px auto;
 }
 
+blockquote{
+  color: green;
+}
+
+
+
 /* Section 2 */
+.section-2{
+    padding: 5px auto;
+}
 
 .klima-img{
-    width: 700px;
-    margin: 30px 0;
+    width: 960px;
+
 }
 
 /* Section 3 */
 .section-3{
     margin: 30px 0;
-    
 }
 
 .pazari{
-    border: 10px solid rgb(86, 69, 24);
+    width: 880px;
+    border: 40px solid rgb(70, 58, 24);
 }
 
 /* Section 4 */
@@ -116,6 +130,7 @@ margin: 0;
 
 h1, h2, h3, h4 {
 font-family: "Audiowide", sans-serif;
+padding: 0 5px;
 }
 
 table, th, td {
