@@ -1,59 +1,55 @@
 
-
-*{
-    background-color: whitesmoke;
+ 
+body{
+    font-family: 'Roboto', sans-serif;
 }
-
 .container{
     width: 960px;
     margin: 0 auto;
+   
 }
 
 
 
-/* Header */
-#top{
-background-image: url(http://albanianstudies.weebly.com/uploads/3/4/6/9/3469404/header_images/1427772824.jpg);
-font-family: 'Bungee Spice', cursive;
-font-size: 36px;
-width: auto;
-height: 100px;
-padding: 50px 0 10px 520px;
-border: 5px dashed white;
+/* Logo */
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
-.header { 
-    color: white;
-    margin: 20px 0 40px 0;
+ 
 
+.stema{
+    width: 110px;
 }
+ 
 
-
+  /* Navigation Bar */
+ul{
+    padding: 0px;
+}
 li{
     display: inline;
     height: 100px;
     width: 80px;
-    padding-left: 0px;
 }
 
 li >a{
-    
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.5;
     text-decoration: none;
-    padding: 15px;
+    padding: 5px;
     margin: 5px 5px;
-    border: 1px solid red;
+    border: 2px ridge red;
     border-radius: 10px;
 }
+
 li >a:hover{
- 
 background-color: rgb(217, 15, 15);
-color: black;
-font-size: 20px;
+color: yellow;
 }
 
- 
 
 /* Head Pictures */
 
@@ -73,7 +69,16 @@ width: 900px;
 
 /* Section 1 */
 .section-1{
-    padding: 5px auto;
+    position: relative;
+    text-align: left;
+    height: 1094px;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5980e801d482e93f58785fef/1599686822548-J10I52TRIS1QCKF4LEYI/view+from+the+top+of+Dajti+Mountain?format=1500w);
+     
+    
+}
+
+.geo{
+    color: blue;
 }
 
 blockquote{
@@ -105,7 +110,7 @@ blockquote{
 /* Section 4 */
 .section-4{
     margin: 30px 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -130,7 +135,7 @@ margin: 0;
 
 
 h1, h2, h3, h4 {
-font-family: "Audiowide", sans-serif;
+    font-family: 'Roboto', sans-serif;
 padding: 0 5px;
 }
 
@@ -140,7 +145,8 @@ table, th, td {
     
 }
 
-p, tr, td { font-family: "Trirong", serif;
+p, tr, td { 
+    font-family: 'Roboto', sans-serif;
 }
 
 .btn{
@@ -166,3 +172,11 @@ border-radius: 20px;
     padding: 10px 10px;
     color: white;
 }
+
+.sections{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+ 
