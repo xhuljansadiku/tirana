@@ -1,1 +1,318 @@
-/*# sourceMappingURL=style.css.map */
+
+ 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+   
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+
+.header h1{
+     
+    color: red;
+    
+    font-family: 'Fredericka the Great', cursive;
+    padding: 15px;
+    font-size: 50px;
+    font-weight: lighter;
+}
+/* Logo */
+.logo{
+    width: 960px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.stema{
+    padding: 20px 0 0 20px;
+    width: 110px;
+}
+
+
+.flag{
+    width: 200px;
+}
+ 
+
+
+  /* Navigation Bar */
+
+.navbar{
+   text-align: center;
+}
+ul{
+    padding: 0px;
+}
+li{
+    display: inline;
+    height: 100px;
+    width: 80px;
+}
+
+li >a{
+    font-size: 20px;
+    line-height: 1.5;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px 5px;
+    border: 1px ridge red;
+    border-radius: 10px;
+}
+
+li >a:hover{
+background-color: blue;
+color: white;
+}
+
+
+/* Head Pictures */
+
+.head-pic{
+border-radius: 0px 100px / 120px;
+box-shadow: 20px 24px 16px 0px rgba(0,0,0,0.75);
+margin: 10px 10px ;
+width: 900px;
+
+}
+
+
+.top-pic{
+    margin: 32px 0px;
+}
+
+
+/* Section 1 */
+.section-1{
+    position: relative;
+    padding-left: 500px;
+    padding: 5px auto;
+    height: 1094px;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5980e801d482e93f58785fef/1599686822548-J10I52TRIS1QCKF4LEYI/view+from+the+top+of+Dajti+Mountain?format=1500w);
+}
+
+.section-1 h2{
+    padding-top: 30px;
+    font-size: 28px;
+    color: white;
+}
+.section-1 p{
+    padding-top: 50px;
+    font-size: 18px;
+    color: white;
+}
+
+
+/* Section 2 */
+.section-2{
+    width: 960px;
+    background-color: rgba(229,229,229,255);
+    padding: 5px auto;
+}
+
+.section-2 #klima{
+    padding: 10px 0 0 15px;
+    width: 960px;
+    height: auto;
+}
+
+.section-2 p{
+    padding: 10px 0 0 15px;
+    width: 960px;
+    height: auto;
+}
+
+
+.klima-img{
+    width: 960px;
+
+}
+
+/* Section 3 */
+.section-3{
+    padding: 5px auto;
+    height: 1060px;
+    color: rgb(1, 1, 1);
+    background-color: oldlace;
+}
+
+ 
+#historia{
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.pazari{
+    width: 880px;
+    padding-left: 40px;
+}
+
+.section-3 figcaption{
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+.section-3 address{
+    padding-left: 40px;
+}
+
+.section-3 p{
+    width: 880px;
+    padding-left: 40px;
+}
+
+
+/* Section 4 */
+.section-4{
+    background-image: url(https://api.mvrdv.boerdamdns.nl/media/uploads/project/388/DowntownOneTirana_03.jpg?width=1920);
+    color: black;
+    margin: 30px 0;
+    height: 905px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-4 h2{
+    padding: 0 0 0 30px;
+}
+.section-4 p{
+    padding: 0 0 0 30px;
+    width: 650px; 
+}
+
+ 
+
+/* Section 5 */
+.section-5{
+    width: 960px;
+    height: 960px;
+    background-color: oldlace;
+}
+
+.section-5 h2{
+    padding: 20px 0 0 30px;
+}
+
+.section-5 p{
+    padding: 20px 0 0 30px;
+    width: 800px;
+    margin-bottom: 30px;
+}
+
+.mozaik{
+    margin-left: 70px;
+   width: 800px;
+    border-radius: 50% 20% / 10% 40%;
+    box-shadow: 20px 10px 10px rgb(95, 78, 78);
+}
+
+/* Section 6 */
+
+
+
+.bashkia{
+    width: 400px;
+}
+.bashkia2{
+    width: 940px;
+    padding: 10px 10px ;
+}
+
+
+/* Section 6 */
+
+.section-7{
+    width: 960px;
+    height: 1200px;
+}
+
+
+.table{
+    width: 920px;
+    margin: 0px auto;
+    padding-left: 20px;
+}
+
+/* Footer */
+.footer{
+    width: 960px;
+    margin: 0px auto;
+    padding-left: 20px;
+    padding-top: 20px;
+    background-color: blue;
+    color: white;
+}
+
+.footer i{
+    background-color: white;
+    color: blue;
+    font-size: 22px;
+ }
+
+ .footer a{
+   color: inherit;
+   border: 1px dotted white;
+   padding: 5px 5px;
+   border-radius: 20px;
+   text-decoration: none;
+ }
+
+ .footer a:hover{
+    color: inherit;
+    padding: 5px 5px;
+    border-radius: 20px;
+    background-color: white;
+    color: blue;
+    
+  }
+ 
+
+
+
+h1, h2, h3, h4 {
+    font-family: 'Righteous', cursive;
+padding: 0 5px;
+}
+
+table, th, td {
+    width: 900px;
+    border:1px solid blue;
+    
+}
+
+p, tr, td { 
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn{
+width: 150px;
+height: 60px;
+font-size: 30px;
+border-radius: 20px;
+}
+
+.btn a{
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: white;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+
+.sections{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+ 
