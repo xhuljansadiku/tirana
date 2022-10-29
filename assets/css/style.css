@@ -1,4 +1,4 @@
-
+@media screen and (min-width: 391px )  {
  
 body{
     font-family: 'Roboto', sans-serif;
@@ -247,14 +247,15 @@ width: 900px;
     margin: 0px auto;
     padding-left: 20px;
     padding-top: 20px;
-    background-color: blue;
+    background-color: rgb(32, 32, 188);
     color: white;
 }
 
 .footer i{
     background-color: white;
     color: blue;
-    font-size: 22px;
+    font-size: 14px;
+    padding: 0 15px 0 15px;
  }
 
  .footer a{
@@ -284,6 +285,7 @@ padding: 0 5px;
 
 table, th, td {
     width: 900px;
+    margin: 0 auto;
     border:1px solid blue;
     
 }
@@ -315,4 +317,338 @@ border-radius: 20px;
     flex-direction: column;
 }
 
- 
+
+
+}
+
+
+
+
+
+
+
+
+/*Mobile Responsive 400px*/
+
+@media only screen and (max-width: 390px) {
+    /* For mobile phones: */
+
+    body{
+        font-family: 'Roboto', sans-serif;
+    }
+    .container{
+        width: 390px;
+        margin: 0px auto;
+       
+    }
+    
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .header h1{
+        color: red;
+        font-family: 'Fredericka the Great', cursive;
+        padding: 0 0 0 20px;
+        font-size: 40px;
+        font-weight: lighter;
+        height: 30px;
+    }
+    /* Logo */
+    .logo{
+        flex-direction: column;
+        width: 390px;
+        display: flex;
+        justify-content:center;
+        align-items: baseline;
+    }
+    
+    .stema{
+       display: none;
+    }
+    .flag{
+        display: none;
+    }
+     
+    
+    
+      /* Navigation Bar */
+    
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    
+    }
+    ul{
+        padding: 0px;
+    }
+    li{
+        flex-direction: column;
+        align-items: flex-start;
+        height: 40px;
+        width: 200px;
+    }
+    
+    li >a{margin-top: 0px;
+        font-size: 20px;
+        line-height: 1.5;
+        text-decoration: none;
+        padding: 5px;
+        margin: 5px 5px;
+        border: 1px ridge red;
+        border-radius: 10px;
+        font-size: 18px;
+    }
+    
+    li >a:hover{
+    background-color: blue;
+    color: white;
+    }
+    
+    
+    /* Head Pictures */
+    
+    .head-pic{
+    border-radius: 0px 100px / 120px;
+    box-shadow: 20px 24px 16px 0px rgba(0,0,0,0.75);
+    
+    width: 350px;
+    
+    }
+
+   
+    
+    /* Section 1 */
+    .section-1{
+        position: relative;
+        height: 960px;
+        background-image: url(https://images.squarespace-cdn.com/content/v1/5980e801d482e93f58785fef/1599686822548-J10I52TRIS1QCKF4LEYI/view+from+the+top+of+Dajti+Mountain?format=1500w);
+    }
+    
+    .section-1 h2{
+        padding-top: 30px;
+        font-size: 28px;
+        color: rgb(0, 0, 0);
+    }
+    .section-1 p{
+        width: 300px;
+        padding: 10px 10px;
+        font-size: 16px;
+        color: rgb(0, 0, 0);
+    }
+    
+    
+    /* Section 2 */
+    .section-2{
+        width: 390px;
+        background-color: rgba(229,229,229,255);
+        padding: 5px auto;
+    }
+    
+    .section-2 #klima{
+        padding: 10px 0 0 15px;
+        width: 390px;
+        height: auto;
+    }
+    
+    .section-2 p{
+        padding: 10px 0 0 15px;
+        width: 360px;
+        height: 120px;
+        font-size: 16px;
+    }
+    
+    
+    .klima-img{
+        display: none;
+    
+    }
+    
+    /* Section 3 */
+    .section-3{
+        padding: 5px auto;
+        height: 1000px;
+        color: rgb(1, 1, 1);
+        background-color: oldlace;
+    }
+    
+     
+    #historia{
+        padding-top: 20px;
+        padding-left: 40px;
+    }
+    
+    .pazari{
+        width: 300px;
+        padding-left: 40px;
+    }
+    
+    .section-3 figcaption{
+        padding-top: 10px;
+        padding-left: 40px;
+        font-size: 12px;
+    }
+    
+    .section-3 address{
+        padding-left: 40px;
+        font-size: 14px;
+    }
+    
+    .section-3 p{
+        width: 300px;
+        padding-left: 40px;
+        font-size: 16px;
+    }
+    
+    
+    /* Section 4 */
+    .section-4{
+        color: black;
+        margin: 30px 0;
+        height: 650px;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .section-4 h2{
+        padding: 0 0 0 30px;
+    }
+    .section-4 p{
+        padding: 0 0 0 30px;
+        width: 340px; 
+    }
+    
+     
+    
+    /* Section 5 */
+    .section-5{
+        width: 390px;
+        height: 1111px;
+        background-color: oldlace;
+    }
+    
+    .section-5 h2{
+        padding: 20px 0 0 30px;
+    }
+    
+    .section-5 p{
+        padding: 20px 0 0 30px;
+        width: 300px;
+        margin-bottom: 30px;
+    }
+    
+    .mozaik{
+       margin-left: 30px;
+       width: 300px;
+        border-radius: 50% 20% / 10% 40%;
+        box-shadow: 20px 10px 10px rgb(95, 78, 78);
+    }
+    
+    /* Section 6 */
+    
+    
+    
+    .bashkia{
+        width: 370px;
+    }
+    .bashkia2{
+      display: none;
+    }
+    
+    
+    /* Section 6 */
+    
+    .section-7{
+        width: 390px;
+        height: 400px;
+    }
+    
+    
+    .table{
+        display: flex;
+        width: 375px;
+        margin: 0 0 0 0;   
+        padding-left: 0px;
+        font-size: 14px;
+    }
+
+
+
+  
+
+    
+    /* Footer */
+    .footer{
+        width: 385px;
+        padding-top: 20px;
+        padding-left: 10px;
+        background-color: blue;
+        color: white;
+    }
+    
+    .footer i{
+        background-color: white;
+        color: blue;
+        font-size: 12px;
+     }
+    
+     .footer a{
+       color: inherit;
+       border: 1px dotted white;
+       padding: 10px 10px;
+       text-decoration: none;
+       font-size: 16px;
+     }
+    
+     .footer a:hover{
+        color: inherit;
+        padding: 5px 5px;
+        border-radius: 20px;
+        background-color: white;
+        color: blue;
+        
+      }
+     
+    
+    
+    
+    h1, h2, h3, h4 {
+        font-family: 'Righteous', cursive;
+    padding: 0 5px;
+    }
+    
+    table, th, td {
+        border:1px solid blue;
+        
+    }
+    
+    p, tr, td { 
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .btn{
+    width: 90px;
+    height: 42px;
+    }
+    
+    .btn a{
+        text-decoration: none;
+    }
+    .btn:hover{
+        background-color: white;
+        cursor: pointer;
+
+    }
+    
+    
+    .sections{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    
+
+
+}
