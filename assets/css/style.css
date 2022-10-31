@@ -74,6 +74,25 @@ background-color: blue;
 color: white;
 }
 
+.l-i{
+    background-color: white;
+    text-decoration: none;  
+    font-size: 20px;
+    border: 1px solid red;
+    border-radius: 50px;
+    height: 70px;
+    width: 70px;
+}
+
+.l-i:hover{
+    background-color:yellowgreen;
+    color: red;
+    text-decoration: none;
+}
+
+button > a {
+    text-decoration: none;
+}
 
 /* Head Pictures */
 
