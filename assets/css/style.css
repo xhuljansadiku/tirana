@@ -77,17 +77,19 @@ color: white;
 .l-i{
     background-color: white;
     text-decoration: none;  
-    font-size: 20px;
-    border: 1px solid red;
-    border-radius: 50px;
-    height: 70px;
-    width: 70px;
+    font-size: 18px;
+    width: 100px;
+    height: 55px;
+    margin-left: 20px;
+    border: none;
+    border-bottom: 2px solid red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .l-i:hover{
-    background-color:yellowgreen;
-    color: red;
+    background-color: rgb(127, 127, 174);
     text-decoration: none;
+     
 }
 
 button > a {
@@ -424,6 +426,18 @@ border-radius: 20px;
     li >a:hover{
     background-color: blue;
     color: white;
+    }
+
+    .l-i{
+        background-color: white;
+        text-decoration: none;  
+        font-size: 16px;
+        width: 100px;
+        height: 55px;
+        margin-left: 10px;
+        border: none;
+        border-bottom: 2px solid red;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     
     
